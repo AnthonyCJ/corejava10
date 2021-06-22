@@ -23,8 +23,8 @@ class ArrayAlg {
      * A pair of floating-point numbers
      */
     public static class Pair {
-        private double first;
-        private double second;
+        private final double first;
+        private final double second;
 
         /**
          * Constructors a pair from rwo floating-point numbers
