@@ -12,7 +12,8 @@ public class PairTest1
         Pair<String> mm = ArrayAlg.minmax(words);
         System.out.println("min = " + mm.getFirst());
         System.out.println("max = " + mm.getSecond());
-        System.out.println("middle = " + ArrayAlg.getMiddle(words));
+        System.out.println("middle = " + ArrayAlg.getMiddle(3.15, 2, 1));
+        //System.out.println("middle = " + ArrayAlg.getMiddle(words));
         //System.out.println("middle = " + ArrayAlg.getMiddle(words[0], words[1], words[2], words[3], words[4]));
     }
 }
