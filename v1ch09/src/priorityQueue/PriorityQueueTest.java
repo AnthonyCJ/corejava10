@@ -23,6 +23,6 @@ public class PriorityQueueTest
             System.out.println(date);
         System.out.println("Removing elements...");
         while (!pq.isEmpty())
-            System.out.println(pq.remove());
+            System.out.println(pq.poll());
     }
 }
